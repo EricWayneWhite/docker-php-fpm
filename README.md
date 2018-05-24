@@ -1,9 +1,9 @@
 # docker php-fpm
-This is a simple web server running apache and php-fpm on alpine
+This is a simple web server running apache and php7-fpm on alpine
 Build from docker file
 ```
-git clone 
-cd php-fpm
+git clone https://github.com/EricWayneWhite/docker-php-fpm
+cd docker-php-fpm
 docker build -t php-fpm .
 ```
 
